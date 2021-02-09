@@ -62,6 +62,13 @@
     background-position: center;
     background-attachment: fixed;
     min-height: 100vh;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 5%;
+}
+.cards-container{
+    align-items: center;
+    justify-content: center;
     padding: 5%;
 }
 .cards-container h2{
@@ -69,9 +76,10 @@
 }
 .cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-column-gap: 2rem;
     grid-row-gap: 3rem;
+    padding: 5%;
 }
 .card{
     backdrop-filter: blur(2rem);
