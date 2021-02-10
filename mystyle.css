@@ -2,6 +2,11 @@
     color: rgb(255, 255, 255);
     
 }
+
+/* Smooth scroll effect */
+html{
+    scroll-behavior:smooth;
+}
 /* custom scrollbar */
 ::-webkit-scrollbar{
     width: 8px;
@@ -55,7 +60,7 @@
 }
 
 /* cards section */
-.cards-container{
+#cards-container{
     background: url(img/phone-using.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,12 +71,12 @@
     padding-right: 25%;
     padding-top: 5%;
 }
-.cards-container{
+#cards-container{
     align-items: center;
     justify-content: center;
     padding: 5%;
 }
-.cards-container h2{
+#cards-container h2{
     color: #35da5c;
 }
 .cards{
