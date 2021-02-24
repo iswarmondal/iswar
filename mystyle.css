@@ -6,6 +6,7 @@
 /* Smooth scroll effect */
 html{
     scroll-behavior:smooth;
+    overflow-x: hidden;
 }
 /* custom scrollbar */
 ::-webkit-scrollbar{
@@ -57,6 +58,31 @@ html{
     height: auto;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+/* Our team section */
+#our-team-container{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0, 15, 46);
+    padding-left: 5rem;
+}
+#our-team-container h2{
+    color: #35da5c;
+}
+#our-team{
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    background: rgb(0, 15, 46);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: center;
+}
+.profile-container{
+    width: 100%;
+    border: solid hotpink;
+
 }
 
 /* cards section */
