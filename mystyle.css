@@ -6,7 +6,6 @@
 /* Smooth scroll effect */
 html{
     scroll-behavior:smooth;
-    overflow-x: hidden;
 }
 /* custom scrollbar */
 ::-webkit-scrollbar{
@@ -20,6 +19,26 @@ html{
 }
 ::-webkit-scrollbar-thumb:hover{
     background: rgb(158, 158, 158);
+}
+.loader-wrapper {
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+  }
+#preloader{
+    display: inline-block;
+    width: 20rem;
+    height: 10rem;
+    position: relative;
+      
 }
 
 /* hero section */
@@ -49,7 +68,7 @@ html{
     width: 100%;
     height: auto;
     border-radius: 1vh;
-    filter: brightness(70%);
+    filter: brightness(90%);
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -58,31 +77,6 @@ html{
     height: auto;
     padding-left: 5%;
     padding-right: 5%;
-}
-
-/* Our team section */
-#our-team-container{
-    width: 100vw;
-    height: 100vh;
-    background: rgb(0, 15, 46);
-    padding-left: 5rem;
-}
-#our-team-container h2{
-    color: #35da5c;
-}
-#our-team{
-    width: 80vw;
-    height: 100vh;
-    margin: auto;
-    background: rgb(0, 15, 46);
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    justify-content: center;
-}
-.profile-container{
-    width: 100%;
-    border: solid hotpink;
-
 }
 
 /* cards section */

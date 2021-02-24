@@ -1,39 +1,44 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <div class="loader-wrapper"><img src="img/preloader.gif" alt="" id="preloader"></div>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="mystyle.css">
+  <link rel="stylesheet" href="mystyle.css">
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <title>Home</title>
-  </head>
-  <body>
+  <title>Home</title>
+</head>
 
-    <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-              <!-- <a class="navbar-brand" href="#"></a> -->
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#our-team-container">About us</a>
-                  </li>
-                  <!-- <li class="nav-item dropdown">
+<body>
+  
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#"></a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cards-container">About me</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Dropdown
                     </a>
@@ -44,99 +49,97 @@
                       <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                   </li> -->
-                  <!-- <li class="nav-item">
+          <!-- <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                   </li> -->
-                </ul>
-                <!-- <form class="d-flex">
+        </ul>
+        <!-- <form class="d-flex">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-light" type="submit">Search</button>
                 </form> -->
-              </div>
-            </div>
-          </nav>
+      </div>
+    </div>
+  </nav>
 
 
-    <!-- hero section -->
-          <div class="hero-container">
-              <div class="wrapper" data-aos="zoom-out-up">
-                <div class="hero-img">
-                    <img src="img/laptop.jpg" alt="">
-                </div>
-                <div class="hero-text">
-                  <h1>
-                      
-                    হ্যালো
-                  </h1>
-                  <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quis id aliquid, tempora eos ab pariatur quae non in mollitia itaque quo facilis quos fugiat a, maiores voluptate, nemo nulla!
-                  </p>
-                  <a href="#cards-container"><button type="button" class="btn btn-success">Know about us</button></a>
-              </div>
-            </div>
-          </div>
+  <!-- hero section -->
+  <div class="hero-container">
+    <div class="wrapper" data-aos="zoom-out-up">
+      <div class="hero-img">
+        <img src="img/me1.png" alt="iswar">
+      </div>
+      <div class="hero-text">
+        <h1 style="color: #35da5c;">
+          হ্যালো
+        </h1>
+        <p>
+        <h2 style="color: #35da5c;">I'm Iswar Chandra,</h2>a web developer from India.<br />
+        I'm specialized in HTML5, CSS3, JavaScript and some ReactJS.
+        </p>
+        <a href="#cards-container"><button type="button" class="btn btn-success">Know about me</button></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- cards -->
+  <div id="cards-container">
+    <h2>My Skills</h2>
+    <br />
+    <div class="cards">
+      <div class="card" data-aos="zoom-out-up">
+        <img src="img/html.jpg" alt="">
+        <h3>HTML5</h3>
+        <p>As we all know that HTML is the backbone of any webpage, so I had a strong grasp on HTML. Here are some
+          projects on HTML</p> <br />
+        <button class="btn btn-success">Projects</button>
+      </div>
+
+      <div class="card" data-aos="zoom-out-up">
+        <img src="img/css.jpg" alt="">
+        <h3>CSS3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe porro neque odio sapiente recusandae excepturi
+          tempore, exercitationem laborum in quisquam?</p>
+      </div>
+
+      <div class="card" data-aos="zoom-out-up">
+        <img src="img/php.jpg" alt="">
+        <h3>PHP</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe porro neque odio sapiente recusandae excepturi
+          tempore, exercitationem laborum in quisquam?</p>
+      </div>
+
+      <div class="card" data-aos="zoom-out-up">
+        <img src="img/bootstrap.jpg" alt="">
+        <h3>Bootstrap</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe porro neque odio sapiente recusandae excepturi
+          tempore, exercitationem laborum in quisquam?</p>
+      </div>
+
+      <div class="card" data-aos="zoom-out-up">
+        <img src="img/mysql.jpg" alt="">
+        <h3>MySQL</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe porro neque odio sapiente recusandae excepturi
+          tempore, exercitationem laborum in quisquam?</p>
+      </div>
+    </div>
+  </div>
 
 
-          <!-- Our team -->
-          <div id="our-team-container">
-          <h2>Our Team</h2>
-          <div id="our-team">
-            <div class="profile-container">
-              <div class="prifile">
-                <img src="img/placeholder-img.png" alt="">
-              </div>
-            </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-            <div class="profile-container">
-              <div class="profile">
-                <img src="img/placeholder-img.png" alt="">
-              </div>
-            </div>
-          </div>
-          </div>
+</body>
+<script>
+  // Preloader
+  window.addEventListener("load", function() {
+    document.querySelector(".loader-wrapper").style.opacity = "0";
+    document.querySelector(".loader-wrapper").style.zIndex = "-1";
+  })
 
+  // Reveal on scroll
+  AOS.init();
+</script>
 
-          <!-- cards -->
-          <div id="cards-container">
-              <h2>Our Skills</h2>
-              <br/>
-              <div class="cards">
-                  <div class="card">
-                      <img src="img/html.jpg" alt="">
-                      <h3 data-aos="zoom-out-up">HTML5</h3>
-                      <p data-aos="zoom-out-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe porro neque odio sapiente recusandae excepturi tempore, exercitationem laborum in quisquam?</p>
-                  </div>
-
-                  <div class="card">
-                    <img src="img/css.jpg" alt="">
-                    <h3 data-aos="zoom-out-up">CSS3</h3>
-                    <p data-aos="zoom-out-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe porro neque odio sapiente recusandae excepturi tempore, exercitationem laborum in quisquam?</p>
-                </div>
-
-                <div class="card">
-                    <img src="img/php.jpg" alt="">
-                    <h3 data-aos="zoom-out-up">PHP</h3>
-                    <p data-aos="zoom-out-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe porro neque odio sapiente recusandae excepturi tempore, exercitationem laborum in quisquam?</p>
-                </div>
-
-                <div class="card">
-                    <img src="img/bootstrap.jpg" alt="">
-                    <h3 data-aos="zoom-out-up">Bootstrap</h3>
-                    <p data-aos="zoom-out-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe porro neque odio sapiente recusandae excepturi tempore, exercitationem laborum in quisquam?</p>
-                </div>
-
-                <div class="card">
-                    <img src="img/mysql.jpg" alt="">
-                    <h3 data-aos="zoom-out-up">MySQL</h3>
-                    <p data-aos="zoom-out-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe porro neque odio sapiente recusandae excepturi tempore, exercitationem laborum in quisquam?</p>
-                </div>
-              </div>
-          </div>
-
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
-  </body>
-  <script>
-    AOS.init();
-  </script>
 </html>
