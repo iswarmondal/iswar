@@ -117,6 +117,9 @@ html{
     filter: brightness(60%);
     margin-bottom: 1%;
 }
+.card p {
+    text-align: justify;
+}
 .card h3{
     color: #35da5c;
 }
